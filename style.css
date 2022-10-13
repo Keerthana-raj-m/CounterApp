@@ -1,0 +1,55 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-div{
+    width: 350px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.959);
+    text-align: center;
+    color: white;
+    
+}
+
+.container-div > *{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+span{
+    font-size: 40px;
+    font-weight:500;
+}
+
+button{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.subtract{
+    background-color: orange;
+    color: white;
+}
+
+.reset{
+    background-color: darkcyan;
+    color: white;
+}
+
+.add{
+    background-color:green;
+    color: white;
+}
